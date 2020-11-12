@@ -23,14 +23,14 @@
     <main>
         <section class="category">
             <h1 class="category-title">Category Products</h1>
-            <nav class="category-nav">
-                <ul class="category-nav-list">
-                    <li class="category-nav-link"><a href="#">Home</a></li>
-                    <li class="category-nav-link"><a href="#">Catalog</a></li>
+            <div class="breadcrumb">
+                <ul class="breadcrumb-list">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Catalog</a></li>
                 </ul>
-            </nav>
-            <ul class="category-title-list">
-                <li class="category-item">
+            </div>
+                <ul class="category-title-list">
+                    <li class="category-item">
                     <a class="category-item-link" href="#">
                         <h3 class="category-item-title">APPAREL KIDS</h3>
                         <img class="category-item-img" src="/images/apparel_kids.png" alt="image of a section with clothes" width="244" height="177">
@@ -65,15 +65,15 @@
                         <h3 class="category-item-title">APPAREL ADULTS</h3>
                         <img class="category-item-img" src="/images/apparel_adults.png" alt="image of the section with apparel adults" width="272" height="205">
                     </a>
-                </li>
-            </ul>
+                    </li>
+                </ul>
         </section>
-        <section class="about-product">
+        <article class="about-product">
             <h2 class="about-product-title">Product Description</h2>
             <p class="about-product-description">Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can even bathe her, just like a little sister.</p>
             <p class="about-product-description">A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old.</p>
             <p class="about-product-description">The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young mistress.</p>
-        </section>
+        </article>
     </main>
     <footer class="footer">
         <div class="footer-navigation">
@@ -110,7 +110,7 @@
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0 15C0 6.71573 6.71573 0 15 0C23.2843 0 30 6.71573 30 15C30 23.2843 23.2843 30 15 30C6.71573 30 0 23.2843 0 15Z" fill="#666666"/>
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M18.5527 10.3672H16.2967C16.0307 10.3672 15.7337 10.7172 15.7337 11.1852V12.8142H18.5527V15.1352H15.7337V22.1052H13.0707V15.1352H10.6577V12.8142H13.0707V11.4472C13.0707 9.48823 14.4317 7.89423 16.2967 7.89423H18.5527V10.3672Z" fill="white"/>
-                        </svg>    
+                        </svg>
                         </a>
                     </li>
                     <li class="footer-social-link">
@@ -140,12 +140,40 @@
                 </ul>
         </div>
     </div>
-            
             <div class="footer-copyright">
-            <h4 class="footer-copyright-description">Company Rating</h4>
+                <div class="footer-copyright-rating">
+                    <h4 class="copyright-rating-description">Company Rating</h4>
+            <ul class="copyright-raiting-list">
+                <li class="copyright-raiting-item">
+                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.60845 0.927052C5.9078 0.0057416 7.21121 0.00574088 7.51056 0.927052L8.58013 4.21885H12.0413C13.0101 4.21885 13.4128 5.45846 12.6291 6.02786L9.82895 8.06231L10.8985 11.3541C11.1979 12.2754 10.1434 13.0415 9.35968 12.4721L6.55951 10.4377L3.75934 12.4721C2.97563 13.0415 1.92115 12.2754 2.2205 11.3541L3.29007 8.06231L0.4899 6.02787C-0.293814 5.45846 0.108961 4.21885 1.07768 4.21885H4.53888L5.60845 0.927052Z" fill="white"/>
+                    </svg>
+                </li>
+                <li class="copyright-raiting-item">
+                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.60845 0.927052C5.9078 0.0057416 7.21121 0.00574088 7.51056 0.927052L8.58013 4.21885H12.0413C13.0101 4.21885 13.4128 5.45846 12.6291 6.02786L9.82895 8.06231L10.8985 11.3541C11.1979 12.2754 10.1434 13.0415 9.35968 12.4721L6.55951 10.4377L3.75934 12.4721C2.97563 13.0415 1.92115 12.2754 2.2205 11.3541L3.29007 8.06231L0.4899 6.02787C-0.293814 5.45846 0.108961 4.21885 1.07768 4.21885H4.53888L5.60845 0.927052Z" fill="white"/>
+                    </svg>
+                </li>
+                <li class="copyright-raiting-item">
+                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.60845 0.927052C5.9078 0.0057416 7.21121 0.00574088 7.51056 0.927052L8.58013 4.21885H12.0413C13.0101 4.21885 13.4128 5.45846 12.6291 6.02786L9.82895 8.06231L10.8985 11.3541C11.1979 12.2754 10.1434 13.0415 9.35968 12.4721L6.55951 10.4377L3.75934 12.4721C2.97563 13.0415 1.92115 12.2754 2.2205 11.3541L3.29007 8.06231L0.4899 6.02787C-0.293814 5.45846 0.108961 4.21885 1.07768 4.21885H4.53888L5.60845 0.927052Z" fill="white"/>
+                    </svg>
+                </li>
+                <li class="copyright-raiting-item">
+                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.60845 0.927052C5.9078 0.0057416 7.21121 0.00574088 7.51056 0.927052L8.58013 4.21885H12.0413C13.0101 4.21885 13.4128 5.45846 12.6291 6.02786L9.82895 8.06231L10.8985 11.3541C11.1979 12.2754 10.1434 13.0415 9.35968 12.4721L6.55951 10.4377L3.75934 12.4721C2.97563 13.0415 1.92115 12.2754 2.2205 11.3541L3.29007 8.06231L0.4899 6.02787C-0.293814 5.45846 0.108961 4.21885 1.07768 4.21885H4.53888L5.60845 0.927052Z" fill="white"/>
+                    </svg>
+                </li>
+                <li class="copyright-raiting-item">
+                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.60845 0.927052C5.9078 0.0057416 7.21121 0.00574088 7.51056 0.927052L8.58013 4.21885H12.0413C13.0101 4.21885 13.4128 5.45846 12.6291 6.02786L9.82895 8.06231L10.8985 11.3541C11.1979 12.2754 10.1434 13.0415 9.35968 12.4721L6.55951 10.4377L3.75934 12.4721C2.97563 13.0415 1.92115 12.2754 2.2205 11.3541L3.29007 8.06231L0.4899 6.02787C-0.293814 5.45846 0.108961 4.21885 1.07768 4.21885H4.53888L5.60845 0.927052Z" fill="white"/>
+                    </svg>
+                </li>
+            </ul>
+        </div>
             <h4 class="footer-copyright-description">Copyright © 2018 Dlk • Design Life Kids</h4>
             <h4 class="footer-copyright-description">Web Design — Direct Line Development</h4>
         </div>
-    </footer> 
+    </footer>
 </body>
 </html>
