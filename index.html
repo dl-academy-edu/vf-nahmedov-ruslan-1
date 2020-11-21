@@ -216,30 +216,26 @@
     <div class="contact-popup">
         <section class="contact-popup">
             <form accept="" method="POST" class="popup-form">
-                <ul class="contact-list">
-                    <li class="contact-item">
-                        <label for="name-input">Name</label>
-                        <input id="name-input" type="text" placeholder="Ivan Ivanov">
-                    </li>
-                    <li class="contact-item">
-                        <label for="phone-input">Phone</label>
-                        <input id="phone-input" type="text">
-                    </li>
-                    <li class="contact-item">
-                        <label for="mail-input">Email</label>
-                        <input id="mail-input" type="text">
-                    </li>
-                    <li class="contact-item">
-                        <label for="textarea">Message</label>
-                        <textarea id="textarea" cols="50" rows="5"></textarea>
-                    </li>
-                </ul>
-                    <div class="contact-check">
-                        <label for="check-sent">By clicking on the button, you consent to the processing of your personal data</label>
-                        <input id="check-sent" type="checkbox">
-                    </div>
-                <button type="submit">submit</button>
-            </form>
+                <fieldset class="popup-form-fieldset">
+                    <label class="popup-form-label" for="name-input">Name
+                    <input class="popup-form-input" id="name-input" type="text" placeholder="Ivan Ivanov"></label>
+                    
+                    <label class="popup-form-lable" for="phone-input">Phone
+                    <input class="popup-form-input" id="phone-input" type="text"></label>
+                    
+                    <label class="popup-form-lable" for="mail-input">Email
+                    <input class="popup-form-input" id="mail-input" type="text"></label>
+                    
+                    <label class="popup-form-lable" for="textarea">Message
+                    <textarea class="popup-form-textarea" id="textarea" cols="50" rows="5"></textarea></label>
+                    
+                    <label class="popup-form-check-text" for="check-sent">By clicking on the button, you consent to the processing of your personal data
+                    <input id="popup-form-check" type="checkbox"></label>
+                    
+                    <button class="popup-button-submit" type="submit">submit</button>
+                    <button class="popup-button-close" type="button"><span class="visually-hidden">close popup</span></button>
+                </fieldset>
+        </form>
         </section>
     </div>
 </body>

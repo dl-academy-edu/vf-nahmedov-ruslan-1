@@ -29,36 +29,32 @@
                     <li class="breadcrumb-item"><a href="#">Contact Us</a></li>
                 </ul>
             </div>
-            <form accept="" method="POST">
-                <ul class="contact-list">
-                    <li class="contact-item">
-                        <label for="name-input">Name</label>
-                        <input id="name-input" type="text" placeholder="Ivan Ivanov">
-                    </li>
-                    <li class="contact-item">
-                        <label for="phone-input">Phone</label>
-                        <input id="phone-input" type="text">
-                    </li>
-                    <li class="contact-item">
-                        <label for="mail-input">Email</label>
-                        <input id="mail-input" type="text">
-                    </li>
-                    <li class="contact-item">
-                        <label for="textarea">Message</label>
-                        <textarea id="textarea" cols="50" rows="5"></textarea>
-                    </li>
-                </ul>
-                    <div class="contact-check">
-                        <label for="check-sent">By clicking on the button, you consent to the processing of your personal data</label>
-                        <input id="check-sent" type="checkbox">
-                    </div>
-                <button type="submit">submit</button>
+            <form accept="" method="POST" class="contact-form">
+                <fieldset class="contact-form-fieldset">
+                        <label class="contact-form-label" for="name-input">Name
+                        <input class="contact-form-input" id="name-input" type="text" placeholder="Ivan Ivanov"></label>
+                        
+                        <label class="contact-form-label" for="phone-input">Phone
+                        <input class="contact-form-input" id="phone-input" type="text"></label>
+                        
+                        <label class="contact-form-label" for="mail-input">Email
+                        <input class="contact-form-input" id="mail-input" type="text"></label>
+                        
+                        <label class="contact-form-label" for="textarea">Message
+                        <textarea class="contact-form-textarea" id="textarea" cols="50" rows="5"></textarea></label>
+                        
+                        <label class="contact-form-check-text" for="check-sent">By clicking on the button, you consent to the processing of your personal data
+                        <input class="contact-form-check" id="check-sent" type="checkbox"></label>
+                        
+                        <button class="contact-form-button" type="submit">submit</button>
+                </fieldset>
             </form>
         </section>
-        <article class="contact-support">
-            <p class="support-description">Our support team are on-hand to assist with any issues you are experiencing.</p>
-            <p class="support-description">Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.</p>
-            <p><span class="help"></span>An expert is waiting to help you!</p>
+        <article class="contact-block">
+            <h2 class="contact-block-title visuallu-hidden">Contact block</h2>
+            <p class="contact-block-description">Our support team are on-hand to assist with any issues you are experiencing.</p>
+            <p class="contact-block-description">Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.</p>
+            <p class="contact-block-description">An expert is waiting to help you!</p>
         </article>
     </main>
     <footer class="footer">
