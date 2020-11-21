@@ -18,61 +18,43 @@
                 <li class="header-nav-link"><a href="#">search</a></li>
                 <li class="header-nav-link"><a href="#">Contact Us</a></li>
             </ul>
-        </nav>
+        </nav> 
     </header>
     <main>
-        <section class="category">
-            <h1 class="category-title">Category Products</h1>
+        <section class="contact">
+            <h1 class="contact-title">Contact Us</h1>
             <div class="breadcrumb">
                 <ul class="breadcrumb-list">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Catalog</a></li>
+                    <li class="breadcrumb-item"><a href="#">Contact Us</a></li>
                 </ul>
             </div>
-                <ul class="category-title-list">
-                    <li class="category-item">
-                    <a class="category-item-link" href="#">
-                        <h3 class="category-item-title">APPAREL KIDS</h3>
-                        <img class="category-item-img" src="/images/apparel_kids.png" alt="image of a section with clothes" width="244" height="177">
-                    </a>
-                </li>
-                <li class="category-item">
-                    <a class="category-item-link" href="#">
-                        <h3 class="category-item-title">HOLIDAY SHOP</h3>
-                        <img class="category-item-img" src="/images/holiday_shop.png" alt="image of the section with new year gifts" width="208" height="244">
-                    </a>
-                </li>
-                <li class="category-item">
-                    <a class="category-item-link" href="#">
-                        <h3 class="category-item-title">TOYS</h3>
-                        <img class="category-item-img" src="/images/toys.png" alt="image of the section with toys" width="270" height="270">
-                    </a>
-                </li>
-                <li class="category-item">
-                    <a class="category-item-link" href="#">
-                        <h3 class="category-item-title">ACCESSORIES</h3>
-                        <img class="category-item-img" src="/images/accessories.png" alt="image of the section with accessories" width="240" height="250">
-                    </a>
-                </li>
-                <li class="category-item">
-                    <a class="category-item-link" href="#">
-                        <h3 class="category-item-title">SALE</h3>
-                        <img class="category-item-img" src="/images/sale.png" alt="image of the section with sale" width="248" height="248">
-                    </a>
-                </li>
-                <li class="category-item">
-                    <a class="category-item-link" href="#">
-                        <h3 class="category-item-title">APPAREL ADULTS</h3>
-                        <img class="category-item-img" src="/images/apparel_adults.png" alt="image of the section with apparel adults" width="272" height="205">
-                    </a>
-                    </li>
-                </ul>
+            <form accept="" method="POST" class="contact-form">
+                <fieldset class="contact-form-fieldset">
+                        <label class="contact-form-label" for="name-input">Name
+                        <input class="contact-form-input" id="name-input" type="text" placeholder="Ivan Ivanov"></label>
+                        
+                        <label class="contact-form-label" for="phone-input">Phone
+                        <input class="contact-form-input" id="phone-input" type="text"></label>
+                        
+                        <label class="contact-form-label" for="mail-input">Email
+                        <input class="contact-form-input" id="mail-input" type="text"></label>
+                        
+                        <label class="contact-form-label" for="textarea">Message
+                        <textarea class="contact-form-textarea" id="textarea" cols="50" rows="5"></textarea></label>
+                        
+                        <label class="contact-form-check-text" for="check-sent">By clicking on the button, you consent to the processing of your personal data
+                        <input class="contact-form-check" id="check-sent" type="checkbox"></label>
+                        
+                        <button class="contact-form-button" type="submit">submit</button>
+                </fieldset>
+            </form>
         </section>
-        <article class="about-product">
-            <h2 class="about-product-title">Product Description</h2>
-            <p class="about-product-description">Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can even bathe her, just like a little sister.</p>
-            <p class="about-product-description">A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old.</p>
-            <p class="about-product-description">The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young mistress.</p>
+        <article class="contact-block">
+            <h2 class="contact-block-title visuallu-hidden">Contact block</h2>
+            <p class="contact-block-description">Our support team are on-hand to assist with any issues you are experiencing.</p>
+            <p class="contact-block-description">Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.</p>
+            <p class="contact-block-description">An expert is waiting to help you!</p>
         </article>
     </main>
     <footer class="footer">
@@ -100,9 +82,10 @@
         </div>
         <div class="footer-connect">
             <h4 class="footer-connect-title">Connect</h4>
-            <form class="footer-email-form">
-                <input type="text" name="email">
-                <button class="footer-email-button">submit</button>
+            <form class="footer-email-form" action="https://echo.htmlacademy.ru" method="POST">
+                <label for="email-input"></label>
+                <input id="email-input" type="text" name="email" placeholder="Email">
+                <button class="footer-email-button">join</button>
             </form>
             <div class="footer-social">
                 <ul class="footer-social-links-list">
@@ -110,7 +93,7 @@
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0 15C0 6.71573 6.71573 0 15 0C23.2843 0 30 6.71573 30 15C30 23.2843 23.2843 30 15 30C6.71573 30 0 23.2843 0 15Z" fill="#666666"/>
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M18.5527 10.3672H16.2967C16.0307 10.3672 15.7337 10.7172 15.7337 11.1852V12.8142H18.5527V15.1352H15.7337V22.1052H13.0707V15.1352H10.6577V12.8142H13.0707V11.4472C13.0707 9.48823 14.4317 7.89423 16.2967 7.89423H18.5527V10.3672Z" fill="white"/>
-                        </svg>
+                        </svg>    
                         </a>
                     </li>
                     <li class="footer-social-link">
@@ -140,6 +123,7 @@
                 </ul>
         </div>
     </div>
+            
             <div class="footer-copyright">
                 <div class="footer-copyright-rating">
                     <h4 class="copyright-rating-description">Company Rating</h4>
